@@ -9,19 +9,29 @@
 </head>
 <body>
 
-    <header>
-        <h1>Douglas Heinrick de Souza Cunha</h1>
-            <img src="gato_no_pc.jpg" alt="foto_de_perfil" class="gato" > 
-        
+    <header class="barra_nav">
+        <a href = #sobre_mim> Sobre mim</a>
+        <a href = #meus_hobbies> Meus Hobbies </a>
+        <a href = #dica_do_dia> Dica do Dia</a>
     </header>
-
+    
     <main>
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Estou a aprender a programar, em busca do meu primeiro emprego de programação, com o intuito de aplicar meus conhecimentos, adquiridos durante o curso que estou fazendo de análise e desenvolvimento de sistema(ADS). Juntamente ao meu Parceiro de Programação!</p>
+
+        <section class="parte1">
+            
+            <h1>Douglas Heinrick de Souza Cunha</h1>
+            <img src="gato_no_pc.jpg" alt="foto_de_perfil" class="gato" > 
+            
         </section>
-        <section>
-            <h2>Meus Hobbies </h2>
+
+        <section id = sobre_mim >
+            <h2 >Sobre Mim</h2>
+            <p>Estou a aprender a programar, em busca do meu primeiro emprego de programação, com o intuito de aplicar meus conhecimentos, adquiridos durante o curso que estou fazendo de análise e desenvolvimento de sistema(ADS).</p>
+            
+        </section>
+
+        <section id = meus_hobbies >
+            <h2 >Meus Hobbies </h2>
                 <ul class="hobbie">
                     <li><a href="experiencia.html">Experiência</a></li>
                     <li><a href="formacao.html">Formação</a></li>
@@ -32,14 +42,20 @@
 
         </section>
 
-        <article>
-            <h2>Dica do Dia</h2>
-            <p>Sempre organiza o teu código com indentação (espaços) para ser fácil de ler.</p>
-        </article>
+        <section id = dica_do_dia >
+            <article>
+                <h2 >Dica do Dia</h2>
+                <p> Se você está explicando seu código para um pato e o pato não entende, talvez o problema não seja o pato.<br>
+
+                    Quando estiver travado em um bug ou código confuso, pare e se force a explicar linha por linha em voz alta (técnica do rubber duck debugging). Na maioria das vezes, você encontrará a solução antes mesmo de terminar a explicação.</p>
+
+            </article>
+
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 - Criado por Douglas Heinrick</p>
+        <p>&copy; 2026 - Criado por Douglas Cunha</p>
     </footer>
 
 </body>

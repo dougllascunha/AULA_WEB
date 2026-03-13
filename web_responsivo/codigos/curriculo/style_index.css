@@ -1,30 +1,63 @@
-body{
-    height: 100px;
-    background: aliceblue;
-    font-family: Arial, sans-serif;  
-    margin: 0.7cm;
 
- 
+html{
+    background-color: rgb(0, 0, 0);
 }
-header{
-    background-color: rgb(168, 168, 221);
+body{
+    
+    font-family: Arial, sans-serif;  
+    margin: 0 auto;
+    max-width: 1500px;
 }
+header.barra_nav{
+    background-color: rgba(56, 56, 56, 0.123);
+    font-size: 0.8cm;
+    padding: 0.5cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5cm;
+    
+}
+.barra_nav a{
+    text-decoration: none;
+
+    color: white;
+}
+.barra_nav a:hover{
+    color: rgb(21, 178, 231);
+
+}
+
+section.parte1{
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+}
+section{
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+
+}
+
 h1{
+    color: rgba(21, 179, 231, 0.950);
     text-align: center;
     font-size: 1.2cm;
 }
 h2{
-    font-size: 1cm;
+    color: rgba(21, 179, 231, 0.950);
+    font-size: 1.5cm;
 }
 p{
-    font-size: 0.6cm;
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 1cm;
 }
 img.gato{
     display: block;
     margin: auto;
-    border: solid rgb(51, 69, 238);
-    width: 7cm;
-    border-radius: 50%;
+    border: solid rgb(21, 178, 231);
+    width: 6cm;
+    border-radius: 10%;
+    
 }
 ul.hobbie{
 
@@ -36,10 +69,10 @@ ul.hobbie{
     margin-bottom: 1cm;
 }
 .hobbie a{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .hobbie a:hover{
-    color: rgb(0, 26, 255);
+    color: rgb(21, 178, 231);
 
 }
 
